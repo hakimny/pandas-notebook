@@ -68,5 +68,8 @@ pretty_print("\nNumber of insurred people who are children - Assumption 2:", len
 #question 12
 print("Correlation \n", insurance_data.corr().to_string())
 
+# We have a positive correlation between charges & age
+#
+# No clear relationship  between bmi & children r close to 0
 
 
